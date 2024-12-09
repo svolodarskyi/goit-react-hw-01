@@ -1,0 +1,30 @@
+.transactionsTable {
+  margin-inline: auto;
+  border-collapse: collapse;
+  min-width: 300px;
+  text-align: center;
+}
+
+.tableHeader {
+  font-weight: 600;
+  background-color: black;
+  color: white;
+}
+
+.tableHeader > th {
+  padding: 7px 50px;
+}
+
+.transactionRow > td {
+  padding: 7px 50px;
+  border: 1px solid black;
+}
+
+.transactionRow:nth-last-of-type(even) {
+  background-color: #d3d3d3;
+}
+
+.transactionType {
+  text-transform: capitalize;
+  text-align: left;
+}
