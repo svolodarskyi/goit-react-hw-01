@@ -1,0 +1,21 @@
+:root {
+  --clr-status-red: hsl(0, 100%, 54%);
+  --clr-status-green: hsl(120, 88%, 27%);
+}
+
+.clrStatusRed {
+  color: var(--clr-status-red);
+}
+
+.clrStatusGreen {
+  color: var(--clr-status-green);
+}
+
+.avatar {
+  margin-bottom: 1rem;
+}
+
+.friendName {
+  font-size: 22px;
+  margin-bottom: 0.5rem;
+}
